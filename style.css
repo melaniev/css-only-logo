@@ -1,0 +1,60 @@
+
+
+#html-logo{
+	margin-top:200px;
+	width:400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	text-align: center;
+}
+.container{
+	position: relative;
+	text-align: center;
+	height: 50px;
+}
+.circle{
+	position: absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	width:50px;
+	height: 50px;
+	border: 3px solid #000000;
+	border-left-style: dashed;
+	border-radius: 50%;
+    -webkit-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
+}
+.second-circle{
+	position: absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	width:50px;
+	height: 50px;
+	border: 3px solid #000000;
+	border-left-style: dashed;
+	border-radius: 50%;
+    -webkit-transform: rotate(32deg);
+    -ms-transform: rotate(32deg);
+    transform: rotate(32deg);
+}
+h1{
+	letter-spacing: 4px;
+	font-weight: 400;
+	margin-top: 10px;
+    margin-bottom: 0px;
+}
+h1 span{
+	font-weight: 500;
+}
+.studio{
+	font-size: .7rem;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin-top: -5px;
+
+}
